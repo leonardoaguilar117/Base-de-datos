@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Instrumentos</title>
+</head>
+<style>
+    :root {
+        --SecondColor: #012D54;
+        --mainColor: white;
+    }
+
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+        background: var(--mainColor);
+        margin: 0px;
+
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--SecondColor);
+    }
+
+    header h1 {
+        color: var(--mainColor);
+        font-size: 35px;
+    }
+
+    a {
+        font-size: 25px;
+        text-decoration: none;
+        color: var(--mainColor);
+    }
+
+    a:hover {
+        font-size: 30px;
+    }
+
+    #selector {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 400px;
+        background: var(--SecondColor);
+        justify-content: center;
+        align-items: center;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    #selector div {
+        margin: 30px;
+
+
+    }
+
+    #main {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Selecciona la categoria</h1>
+    </header>
+
+    <div id="main">
+        <div id="selector">
+            <div><a href="guitars.php">Guitarras</a></div>
+            <div><a href="basses.php">Bajos</a></div>
+            <div><a href="pianos.php">Pianos</a></div>
+            <div><a href="drums.php">Baterías</a></div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

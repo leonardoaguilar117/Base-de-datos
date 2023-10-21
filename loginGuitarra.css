@@ -1,0 +1,85 @@
+html {
+    background-color: #012D54;
+}
+
+body {
+    margin: 0px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 700px;
+    color: white;
+    font-size: 60px;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    margin: 30px;
+
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+input:hover {
+    transform: scale(1.1);
+    background: #a2d381;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+
+::placeholder {
+    font-size: 15px;
+}
+
+#nomGuit {
+    width: 320px;
+}
+
+#marca {
+    width: 280px;
+}
+
+#stock {
+    width: 100px;
+}
+
+.formulario {
+    background: white;
+    height: 300px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 165px;
+    margin-top: 100px;
+    flex-direction: column;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#button {
+    margin-top: 0px;
+    margin-left: 730px;
+    width: 230px;
+    height: 40px;
+    color: #012D54;
+    font-size: 15px;
+    background-color: rgb(248, 241, 233);
+}
